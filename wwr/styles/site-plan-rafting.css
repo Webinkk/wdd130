@@ -12,8 +12,8 @@ body {
     --accent1-color: #FFF1D0;
     --accent2-color: #92898A;
 
-    --heading-font: 'Quicksand', serif;
-    --paragraph-font: 'Quicksand', serif;
+    --heading-font: 'quicksand', serif;
+    --paragraph-font: 'quicksand', serif;
     
     --nav-background-color:var(--accent1-color);
     --nav-link-color:var(--primary-color);
