@@ -1,0 +1,68 @@
+@import url(https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap);
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+
+:root {
+    --primary-color: #07A0C3;
+    --secondary-color: #F0C808;
+    --accent1-color: #FFF1D0;
+    --accent2-color: #92898A;
+
+    --heading-font: 'Quicksand', serif;
+    --paragraph-font: 'Quicksand', serif;
+    
+    --nav-background-color:var(--accent1-color);
+    --nav-link-color:var(--primary-color);
+    --nav-hover-link-color:var(--secondary-color);
+    --nav-hover-background-color:var(--accent2-color)
+}
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--secondary-color);
+}
+
+header {
+    padding: 20px;
+    background-color: var(--accent1-color);
+}
+
+p {
+    padding: 25px;
+}
+
+nav {
+    background-color: var(--nav-background-color);
+    text-decoration: none;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
+
+body {
+    background-color: var(--accent2-color);
+}
