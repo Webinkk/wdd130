@@ -17,7 +17,7 @@
 
 body {
     font-family: var(--paragraph-font);
-    max-width: 960px;
+    max-width: 1000px;
     padding: 20px;
 }
 
@@ -37,6 +37,8 @@ p {
     text-decoration: none;
     max-width: 32px;
     max-height: 32px;
+    float: right;
+    display: inline-flex;
 }
 
 .twitter {
@@ -86,7 +88,7 @@ header {
     background-color: var(--primary-color);
 }
 
-nav {
+header nav {
     display: flex;
     justify-content: center;
     gap: 4px;
@@ -100,11 +102,9 @@ header img {
     filter: drop-shadow(10px 3px);
 }
 
-
 section p {
     display: flex;
     flex-wrap: wrap;
-
 }
 
 section h2 {
@@ -113,13 +113,30 @@ section h2 {
 }
 
 figure {
-    border: thin var(--primary-color) solid;
+    display: inline-block;
+
+}
+
+figure img {
     display: flex;
 }
 
 figcaption {
-    background-color: var(--secondary-color);
-    color: var(--primary-color);
-    font: italic smaller sans-serif;
-    margin: 3px;
+    text-align: center;
 }
+
+section img {
+    max-width: 220px;
+    max-height: 150px;
+}
+
+ footer {
+    display: flex;
+    justify-content: center;
+    gap: 4px;
+    max-width: fit-content;
+ }
+
+ footer p {
+    padding-right: 170px;
+ }
