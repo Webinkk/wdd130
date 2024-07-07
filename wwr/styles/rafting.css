@@ -19,6 +19,7 @@ body {
     font-family: var(--paragraph-font);
     max-width: 1000px;
     padding: 20px;
+    background-color: var(--accent2-color);
 }
 
 h2 {
@@ -30,7 +31,6 @@ h2 {
 p {
     font-family: var(--paragraph-font);
     color: var(--secondary-color);
-
 }
 
 .sociallinks {
@@ -38,7 +38,7 @@ p {
     max-width: 32px;
     max-height: 32px;
     float: right;
-    display: inline-flex;
+    display: flex;
 }
 
 .twitter {
@@ -105,6 +105,8 @@ header img {
 section p {
     display: flex;
     flex-wrap: wrap;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
 }
 
 section h2 {
@@ -113,15 +115,22 @@ section h2 {
 }
 
 figure {
-    display: inline-block;
-
+    display: inline-flex;
+    padding: 5px;
+    max-width: 220px;
+    margin: 0 auto;
 }
 
 figure img {
-    display: flex;
+    display: inline-flex;
+    vertical-align: top;
 }
 
 figcaption {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    font: italic smaller sans-serif;
+    margin: 3px;
     text-align: center;
 }
 
@@ -130,13 +139,13 @@ section img {
     max-height: 150px;
 }
 
- footer {
+footer {
     display: flex;
     justify-content: center;
     gap: 4px;
     max-width: fit-content;
  }
 
- footer p {
+footer p {
     padding-right: 170px;
  }
