@@ -115,9 +115,6 @@ section h2 {
 figure {
     border: thin var(--primary-color) solid;
     display: flex;
-    padding: 5px;
-    max-width: 500px;
-    margin: 0 auto;
 }
 
 figcaption {
