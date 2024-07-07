@@ -78,3 +78,51 @@ body {
     background-color: var(--secondary-color);
     color: var(--primary-color);
 }
+
+header {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    background-color: var(--primary-color);
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 4px;
+    background-color: var(--nav-background-color);
+    color: var(--nav-link-color);
+    max-width: fit-content;
+}
+
+header img {
+    padding: 20px;
+    filter: drop-shadow(10px 3px);
+}
+
+
+section p {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+section h2 {
+    display: flex;
+    justify-content: center;
+}
+
+figure {
+    border: thin var(--primary-color) solid;
+    display: flex;
+    padding: 5px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+figcaption {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    font: italic smaller sans-serif;
+    margin: 3px;
+}
