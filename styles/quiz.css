@@ -1,0 +1,78 @@
+@import url(https://fonts.googleapis.com/css2?family=Aldrich&display=swap);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Aldrich", sans-serif;
+    font-weight: 400;
+    font-size: 1.3em;
+    font-style: normal;
+    background-color: rgb(149, 97, 164);
+    color: black;
+}
+
+h1 {
+    margin: 1rem;
+    font-size: 2rem;
+    color: #ffff00;
+    text-align: center;
+}
+
+header {
+    margin: auto;
+    width: 750px;
+    border: 3px solid black;
+    border-radius: 0.5rem;
+    background-color: rgb(100, 100, 100);
+}
+
+form {
+    width: 750px;
+    margin: auto;
+    padding: 1.5rem;
+    border: 3px solid #ffff00;
+    border-radius: 0.5rem;
+    background-color: rgb(200, 200, 200);
+    display: grid;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: .4rem;
+    margin: 1rem;
+    border: 1px solid rgba(255, 255, 255, 0);
+    padding: 1rem;
+}
+
+label {
+    text-align: center;
+}
+
+input, select, textarea {
+    font-size: 1rem;
+    padding: .5rem;
+}
+
+button {
+    background-color: rgb(100, 100, 100);
+    color: yellow;
+    border: #000;
+    border-radius: .5rem;
+    font-size: 1rem;
+    margin: 1rem;
+    padding: .5rem;
+}
+
+button:hover {
+    background-color: green;
+    color: #fff;
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+}
