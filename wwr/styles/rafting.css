@@ -215,3 +215,11 @@ input[type=checkbox] {
     width: 30px;
     height: 15px;
 }
+
+.comp-info p{
+ color: var(--primary-color);
+}
+
+.comp-info {
+    background-color: var(--accent1-color);
+}
