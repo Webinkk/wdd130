@@ -17,7 +17,7 @@
 
 body {
     font-family: var(--paragraph-font);
-    max-width: 1000px;
+    max-width: 10000px;
     padding: 20px;
     background-color: var(--accent2-color);
 }
@@ -38,7 +38,7 @@ p {
     max-width: 32px;
     max-height: 32px;
     float: right;
-    display: flex;
+    display: inline-flex;
 }
 
 .twitter {
@@ -46,8 +46,15 @@ p {
     max-height: 32px;
 }
 
+.insta {
+    max-width: 32px;
+    max-height: 32px;
+    position:fixed;
+    right: 490px;
+}
+
 body {
-    max-width: 600px;
+    max-width: 900px;
 }
 
 .hero img {
@@ -115,23 +122,22 @@ section h2 {
 }
 
 figure {
-    display: inline-flex;
-    padding: 5px;
-    max-width: 220px;
+    display: flex;
+    margin: 20px;
     margin: 0 auto;
 }
 
 figure img {
-    display: inline-flex;
     vertical-align: top;
 }
 
-figcaption {
-    background-color: var(--secondary-color);
+figure figcaption {
+    background-color: var(--accent1-color);
     color: var(--primary-color);
     font: italic smaller sans-serif;
-    margin: 3px;
     text-align: center;
+    min-width: 80px;
+    max-height:fit-content;
 }
 
 section img {
@@ -140,12 +146,72 @@ section img {
 }
 
 footer {
-    display: flex;
-    justify-content: center;
+    display: inline-block;
     gap: 4px;
-    max-width: fit-content;
+    max-width: 900px;
  }
 
 footer p {
-    padding-right: 170px;
+    padding-right: 10px;
  }
+
+ .employees-contact img {
+    max-width: 320px;
+    max-height: 250px;
+    padding: 5px;
+ }
+
+ form {
+    width: 750px;
+    margin: 0 auto;
+    padding: 1.5rem;
+    border: 2px solid var(--secondary-color);
+    border-radius: .5rem;
+    display: grid;
+ }
+
+ fieldset {
+    margin: 1rem;
+    border: 1px solid rgba(255, 255, 255, 0);
+    padding: 1rem;
+}
+
+label {
+    text-align: left;
+}
+
+input, textarea {
+    font-size: 1rem;
+}
+
+button {
+    background-color: var(--accent1-color);
+    color: var(--primary-color);
+    border: #000;
+    border-radius: .5rem;
+    font-size: 1rem;
+    margin: 1rem;
+    padding: .5rem;
+}
+
+button:hover {
+    background-color: green;
+    color: #fff;
+}
+
+.gridt {
+    display: grid;
+    grid-gap: 0.1rem;
+    padding: 1px;
+    align-items: center;
+}
+
+.boxest {
+    padding: 1rem;
+    align-items: center;
+}
+
+input[type=checkbox] {
+    width: 30px;
+    height: 15px;
+}
