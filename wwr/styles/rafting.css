@@ -26,6 +26,7 @@ h2 {
     font-family: var(--heading-font);
     color: var(--primary-color);
     background-color: var(--secondary-color);
+    padding: 15px;
 }
 
 p {
@@ -35,22 +36,20 @@ p {
 
 .sociallinks {
     text-decoration: none;
-    max-width: 32px;
-    max-height: 32px;
+    width: 32px;
+    height: 32px;
     float: right;
-    display: inline-flex;
+    display: flex;
 }
 
 .twitter {
-    max-width: 32px;
-    max-height: 32px;
+    width: 32px;
+    height: 32px;
 }
 
 .insta {
-    max-width: 32px;
-    max-height: 32px;
-    position:fixed;
-    right: 490px;
+    width: 32px;
+    height: 32px;
 }
 
 body {
@@ -67,6 +66,7 @@ body {
     position: absolute;
     left: 160px;
     top: 255px;
+    padding: 0 10px;
 }
 
 .hero article img {
@@ -86,6 +86,7 @@ body {
 .hero h1 {
     background-color: var(--secondary-color);
     color: var(--primary-color);
+    padding: 0 10px;
 }
 
 header {
@@ -102,11 +103,17 @@ header nav {
     background-color: var(--nav-background-color);
     color: var(--nav-link-color);
     max-width: fit-content;
+    padding: 10px;
 }
 
 header img {
     padding: 20px;
     filter: drop-shadow(10px 3px);
+}
+
+a {
+    text-decoration: none;
+    padding: 0 15px;
 }
 
 section p {
@@ -122,7 +129,6 @@ section h2 {
 }
 
 figure {
-    display: flex;
     margin: 20px;
     margin: 0 auto;
 }
@@ -146,9 +152,10 @@ section img {
 }
 
 footer {
-    display: inline-block;
+    display: grid;
     gap: 4px;
     max-width: 900px;
+    grid-template-columns: 3fr 1fr;
  }
 
 footer p {
@@ -156,8 +163,8 @@ footer p {
  }
 
  .employees-contact img {
-    max-width: 320px;
-    max-height: 250px;
+    max-width: 100%;
+    height: 250px;
     padding: 5px;
  }
 
@@ -218,8 +225,14 @@ input[type=checkbox] {
 
 .comp-info p{
  color: var(--primary-color);
+ padding: 15px;
 }
 
 .comp-info {
     background-color: var(--accent1-color);
+}
+
+.employees-contact {
+     display: flex;
+     gap: 15px;
 }
