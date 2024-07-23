@@ -152,10 +152,11 @@ section img {
 }
 
 footer {
+    padding: 20px 0;
     display: grid;
     gap: 4px;
     max-width: 900px;
-    grid-template-columns: 3fr 1fr;
+    grid-template-columns: 2fr 1fr;
  }
 
 footer p {
@@ -235,4 +236,89 @@ input[type=checkbox] {
 .employees-contact {
      display: flex;
      gap: 15px;
+}
+
+.splash img {
+    width: 900px;
+    height: 500px;
+}
+
+.splash h1 {
+    position: absolute;
+    top: 270px;
+    left: 100px;
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+    padding: 0 10px;
+}
+
+.content img {
+    gap: 10px;
+    width: 450px;
+    padding: 10px 0;
+}
+
+.content {
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.content-text h3 {
+    display: grid;
+    grid-gap: .5rem;
+    width: 420px;
+    color: var(--accent1-color);
+    background-color: rgba(3, 80, 148, 0.7);
+    text-align: center;
+    padding: 15px;
+}
+
+.long-text {
+    position: absolute;
+    right: 294px;
+    top: 871px;
+}
+
+.short-text {
+    position: absolute;
+    top: 871px;
+}
+
+.news-l-form {
+    padding: 2px;
+}
+
+.news-l-form fieldset{
+    display: grid;
+    grid-gap: .5rem;
+    margin: 1rem;
+    border: 1px solid rgba(255, 255, 255, 0);
+    padding: 1rem;
+}
+
+.news-l-form label {
+    text-align: left;
+    padding-right: 1rem;
+}
+
+.news-l-form input {
+    padding: 0.5rem;    
+    font-size: 1.2rem;
+    width: 50%;
+}
+
+.news-l-form button {
+    width: 25%;
+}
+
+.call-action {
+    color: var(--nav-link-color);
+    background-color: var(--accent1-color);
+    border-radius: .5rem;
+    padding: 8px;
+}
+.call-action:hover {
+    background-color: rgb(198, 83, 11);
 }
