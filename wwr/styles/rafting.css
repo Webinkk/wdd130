@@ -282,7 +282,7 @@ input[type=checkbox] {
 .content-text {
     width: 420px;
     height: 55px;
-    color: black;
+    color: var(--accent1-color);
     background-color: rgba(3, 80, 148, 0.7);
     text-align: center;
     padding: 15px;
