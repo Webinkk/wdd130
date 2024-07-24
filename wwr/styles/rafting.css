@@ -59,13 +59,7 @@ body {
     display: block;
     width: 100%;
     height: auto;
-}
-
-.hero h1 {
-    position: absolute;
-    left: 160px;
-    top: 255px;
-    padding: 0 10px;
+    padding: 5px;
 }
 
 .hero article img {
@@ -83,6 +77,9 @@ body {
 }
 
 .hero h1 {
+    position: absolute;
+    left: 160px;
+    top: 253px;
     background-color: var(--secondary-color);
     color: var(--primary-color);
     padding: 0 10px;
@@ -93,6 +90,7 @@ header {
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
     background-color: var(--primary-color);
+
 }
 
 header nav {
@@ -141,7 +139,7 @@ figure figcaption {
     color: var(--primary-color);
     font: italic smaller sans-serif;
     text-align: center;
-    min-width: 80px;
+    width: 260px;
     height:fit-content;
 }
 
@@ -230,6 +228,7 @@ input[type=checkbox] {
 
 .comp-info {
     background-color: var(--accent1-color);
+    border-radius: 0.5rem
 }
 
 .employees-contact {
@@ -240,6 +239,7 @@ input[type=checkbox] {
 .splash img {
     width: 900px;
     height: 500px;
+    padding: 5px 0;
 }
 
 .splash h1 {
@@ -255,6 +255,12 @@ input[type=checkbox] {
     gap: 10px;
     width: 450px;
     padding: 10px 0;
+}
+
+.call-col-one {
+    text-align: center;
+    position: absolute;
+    top: 680px;
 }
 
 .content {
@@ -319,5 +325,91 @@ input[type=checkbox] {
     padding: 8px;
 }
 .call-action:hover {
-    background-color: rgb(255, 98, 0);
+    background-color: rgb(193, 80, 10);
+}
+
+table, th, td {
+    border: 1px solid black;
+    padding: 2px;
+    width: 800px;
+    text-align: center;
+    background-color: var(--accent1-color);
+    color: var(--primary-color);
+}
+
+table {
+    border-radius: .5rem;
+}
+
+.call-col-two{
+    text-align: center;
+    position: absolute;
+    top: 680px;
+}
+
+.call-contact {
+    color: var(--nav-link-color);
+    background-color: var(--accent1-color);
+    border-radius: .5rem;
+    padding: 4px;
+}
+
+.call-contact:hover {
+    background-color: rgb(193, 80, 10);
+}
+
+.all-trip{
+    display: flex;
+    gap: 5px;
+    padding-bottom: 40px;
+}
+
+.all-trip img {
+    width: 295px;
+    height: 225px;
+}
+
+.all-trip figcaption {
+    text-align: center;
+    margin-left: 20px;
+    border-radius: .5rem;
+    padding: 0 4px;
+}
+
+.dwd img {
+    display: block;
+    width: 100%;
+    height: 500px;
+    padding: 5px 0;
+}
+
+.dwd h1 {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    padding: 0 10px;
+    position: absolute;
+    left: 160px;
+    top: 258px;
+}
+
+.contact-home {
+    text-align: center;
+    border-radius: 0.5rem;
+}
+
+.eximg {
+    display: flex;
+    gap: 2px;
+    flex-wrap:wrap;
+}
+
+.eximg img {
+    padding: 5px;
+    width: 270px;
+    height: 200px;
+    align-items: center;
+}
+
+.eximg figcaption {
+    text-align: center;
 }
