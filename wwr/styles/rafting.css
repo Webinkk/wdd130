@@ -428,6 +428,6 @@ table {
 }
 
 .wirefc {
-    color: var(--secondary-color);
-    
+    color: black;
+    text-decoration: underline;
 }
