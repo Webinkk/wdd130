@@ -121,7 +121,7 @@ section p {
     display: flex;
     flex-wrap: wrap;
     background-color: var(--primary-color);
-    color: white;
+    color: black;
 }
 
 section h2 {
