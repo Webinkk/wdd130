@@ -313,6 +313,7 @@ input[type=checkbox] {
 }
 
 .news-l-form label {
+    color: var(--accent1-color);
     text-align: left;
     padding-right: 1rem;
 }
@@ -328,7 +329,7 @@ input[type=checkbox] {
 }
 
 .call-action {
-    color: var(--accent2-color);
+    color: rgb(11, 9, 49);
     background-color: var(--accent1-color);
     border-radius: .5rem;
     padding: 8px;
