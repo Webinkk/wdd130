@@ -76,6 +76,10 @@ body {
     background-color: rgba(0, 107, 200, 0.4);
 }
 
+.hero p {
+    color: white;
+}
+
 .hero h1 {
     position: absolute;
     left: 160px;
@@ -117,7 +121,7 @@ section p {
     display: flex;
     flex-wrap: wrap;
     background-color: var(--primary-color);
-    color: black;
+    color: white;
 }
 
 section h2 {
@@ -313,7 +317,6 @@ input[type=checkbox] {
 }
 
 .news-l-form label {
-    color: var(--accent1-color);
     text-align: left;
     padding-right: 1rem;
 }
