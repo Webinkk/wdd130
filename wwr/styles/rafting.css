@@ -361,7 +361,7 @@ table {
 }
 
 .call-contact {
-    color: var(--nav-link-color);
+    color: black;
     background-color: var(--accent1-color);
     border-radius: .5rem;
     padding: 4px;
@@ -425,4 +425,9 @@ table {
 
 .eximg figcaption {
     text-align: center;
+}
+
+.wirefc {
+    color: var(--secondary-color);
+    
 }
